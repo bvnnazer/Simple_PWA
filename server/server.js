@@ -5,7 +5,7 @@ const path = require("path");
 const db = require("./database");
 
 const app = express();
-const PORT = 5000;
+const PORT = 3000;
 
 // Middleware
 app.use(cors());

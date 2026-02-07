@@ -1,6 +1,6 @@
 // API Client
 const api = {
-  baseURL: "http://localhost:5000/api",
+  baseURL: "http://localhost:3000/api",
 
   async request(endpoint, options = {}) {
     try {
@@ -59,4 +59,4 @@ const api = {
   async editTodo(id, text) {
     return this.updateTodo(id, { text });
   },
-}
+};
